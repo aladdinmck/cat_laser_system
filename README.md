@@ -27,5 +27,5 @@ The objective of this project is to maximize a cat's stimulation without a human
 
 ## TODO
 
-* ** Need better wires. Specifically we need more MF wires. **
+* **Need better wires. Specifically we need more Male-Female wires.**
 
