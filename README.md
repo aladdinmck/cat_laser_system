@@ -19,7 +19,7 @@ The objective of this project is to maximize a cat's stimulation without a human
 - [X]  **WED 10-27-2021: Get Servo motors working.**
                   **Get dimensions and begin modeling a housing for the device.**
 - [X]  **THU 10-28-2021: 3D print first iteration of the housing for device components.** 
-- [ ]  **FRI 10-29-2021: Get laser working and integrate with other components.** 
+- [X]  **FRI 10-29-2021: Get laser working and integrate with other components.** 
 
 - [ ]  **MON 11-01-2021: Create laser patterns.** 
 - [ ]  **TUE 11-02-2021: Iron out any unexpected bugs or issues.**
@@ -28,6 +28,9 @@ The objective of this project is to maximize a cat's stimulation without a human
 ## TODO
 
 * ****
-- [X]  **Need better wires. Specifically we need more Male-Female wires.**
-- [ ]  **Get USB Flash Drive for 3D printing** 
+- [X]  ~~Need better wires. Specifically we need more Male-Female wires.~~
+- [X]  ~~Get USB Flash Drive for 3D printing.~~
+- [X]  ~~Print first iteration of housing.~~ 
+- [ ]  **Finalize housing dimensions.** 
+- [ ]  **Fix laser and motion sensor logic.** 
 
