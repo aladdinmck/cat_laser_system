@@ -31,7 +31,7 @@ The objective of this project is to maximize a cat's stimulation without a human
 * ~~Get USB Flash Drive for 3D printing.~~
 * ~~Print first iteration of housing.~~ 
 * ~~Finalize housing dimensions.~~ 
-	* ~~The Pan servo needs screw hole on the back side opposite of the wire opening.**
+	* ~~The Pan servo needs screw hole on the back side opposite of the wire opening.~~
 	* ~~Servo to laser beam connection dimensions are perfect and should be copied to the Pan Servo to Tilt Servo connection.~~ 
 * **Fix laser and motion sensor logic.** 
 
