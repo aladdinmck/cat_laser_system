@@ -21,9 +21,9 @@ The objective of this project is to maximize a cat's stimulation without a human
 - [X]  ~~THU 10-28-2021: 3D print first iteration of the housing for device components.~~ 
 - [X]  ~~FRI 10-29-2021: Get laser working and integrate with other components.~~
 
-- [ ]  ~~MON 11-01-2021: Create laser patterns.~~ 
-- [ ]  ~~TUE 11-02-2021: Iron out any unexpected bugs or issues.~~
-- [ ]  ~~WED 11-03-2021: Begin report/presentation.~~ 
+- [X]  ~~MON 11-01-2021: Create laser patterns.~~ 
+- [X]  ~~TUE 11-02-2021: Iron out any unexpected bugs or issues.~~
+- [X]  ~~WED 11-03-2021: Begin report/presentation.~~ 
 
 - [ ]  **MON 11-08-2021: Create laser patterns.** 
 - [ ]  **TUE 11-09-2021: Iron out any unexpected bugs or issues.**
