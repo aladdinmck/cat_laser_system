@@ -1,34 +1,39 @@
+#include <Servo.h>
+
 //laser pin setup
 int laserPin = 8;                // choose the pin for the LED
 
-// Motion sensor setup
-int inputPin = 7;               // choose the input pin (for PIR sensor)
-int pirState = LOW;             // we start, assuming no motion detected
-int val = 0;
+Servo servo_1;
+Servo servo_2;
+
+int pos1 = 95;
+int pos2 = 95;
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(laserPin, OUTPUT);      // declare LED as output
-  pinMode(inputPin, INPUT);     // declare sensor as input
+
+  servo_1.attach(9);
+  servo_2.attach(10);
  
   Serial.begin(9600);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  val = digitalRead(inputPin);  // read input value
-  if (val == HIGH) {            // check if the input is HIGH
-    digitalWrite(laserPin, HIGH);  // turn laser ON
-    if (pirState == LOW) {
-      // we have just turned on
-      Serial.println("Motion detected!");
-      // We only want to print on the output change, not state
-      pirState = HIGH;
-    }
-  } else {
-    //digitalWrite(laserPin, LOW); // turn LED OFF
-    //pirState = LOW;
-    
+  digitalWrite(8, HIGH);
+  delay(50);
+
+  for (pos1 = 95, pos2 = 95; pos1 <= 150 && pos2 <= 150; pos1++, pos2++) {
+    servo_1.write(pos1);
+    servo_2.write(pos2);
+    delay(25);  
+  }    
+
+  for (pos1 = 150, pos2 = 150; pos1 > 95 && pos2 > 95; pos1--, pos2--) {
+     servo_1.write(pos1);
+     servo_2.write(pos2);
+     delay(25);
   }
+
 }
